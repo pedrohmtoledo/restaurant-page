@@ -1,10 +1,9 @@
-console.log("dasda")
 import "./style.css"
-
 import foodImg from "./food.png"
+import { renderHomePage }  from "./home.js"
 
-const content = document.querySelector("#content");
-const image = document.createElement("img");
 
-image.src = foodImg;
 
+
+
+renderHomePage();

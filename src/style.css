@@ -76,15 +76,39 @@ button:active {
 
 /* content */
 #content {
-    height: 80rem;
+    min-height: 45rem;
+    max-height: auto;
     width: 50rem;
     border: 3px outset rgb(167,238,238);
     background: rgb(167,238,238);
     box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.32);
     -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.32);
     -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.32);
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+
+
 }
 
+h2 {
+    font-size: 2rem;
+    border:10px inset #2eb9ce;
+    border-radius:12px;
+    width: 30rem;
+    text-align: center;
+    -webkit-box-shadow:0px 0px 1px 1px #2ca5a5 inset;
+    -moz-box-shadow:0px 0px 2px 1px #2ca5a5 inset;
+    box-shadow:0px 0px 2px 1px #2ca5a5 inset;
+    
+}
+    
 
 /* footer */
 
