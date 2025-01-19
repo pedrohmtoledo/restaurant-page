@@ -94,6 +94,18 @@ button:active {
     gap: 5rem;
 }
 
+h2 {
+    font-size: 2rem;
+    border:10px inset #2eb9ce;
+    border-radius:12px;
+    width: 30rem;
+    text-align: center;
+    -webkit-box-shadow:0px 0px 1px 1px #2ca5a5 inset;
+    -moz-box-shadow:0px 0px 2px 1px #2ca5a5 inset;
+    box-shadow:0px 0px 2px 1px #2ca5a5 inset;
+    
+}
+
 /* homepage */
 .homepage {
     display: flex;
@@ -123,19 +135,88 @@ button:active {
 
 }
 
-h2 {
-    font-size: 2rem;
+/* menu */
+
+.menupage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.menulist {
     border:10px inset #2eb9ce;
     border-radius:12px;
-    width: 30rem;
+    width: 40rem;
+    text-align: start;
+    -webkit-box-shadow:0px 0px 1px 1px #2ca5a5 inset;
+    -moz-box-shadow:0px 0px 2px 1px #2ca5a5 inset;
+    box-shadow:0px 0px 2px 1px #2ca5a5 inset;
+}
+
+.menulist > h3 {
+    text-align: center;
+}
+.menulist > ul {
+    padding-left: 4rem;
+}
+
+.menulist > ul > li > span{
+    display: table-cell;
+
+}
+.menulist > ul > li {
+    display: block;
+    display: table-row; 
+
+    padding-left: 0.3rem;
+}
+.dots {
+    position: relative;
+    bottom: 0.3rem;
+    min-width: 16rem;
+    border-bottom: 1px dotted black;
+}
+
+
+/* about */
+
+.aboutpage, .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+.information > * {
+    border:10px inset #2eb9ce;
+    border-radius:12px;
+    width: 25rem;
     text-align: center;
     -webkit-box-shadow:0px 0px 1px 1px #2ca5a5 inset;
     -moz-box-shadow:0px 0px 2px 1px #2ca5a5 inset;
     box-shadow:0px 0px 2px 1px #2ca5a5 inset;
-    
-}
-    
 
+}
+
+.about {
+    list-style-position: inside;
+    list-style-type: none;
+}
 /* footer */
 
 footer {
